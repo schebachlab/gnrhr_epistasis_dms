@@ -1,0 +1,155 @@
+2022-05-03 09:51:09.618631
+Job name:  GnRHR_V276T_rep2_05032022
+Parameters used in this analysis...
+Path to R1 FASTQ file, bin A :
+ GSF3186-Schlebach-V276T_A_S5_R1_001.fastq
+Path to R2 FASTQ file, bin A :
+ GSF3186-Schlebach-V276T_A_S5_R2_001.fastq
+Mean fluoresence intensiy, bin A : 105.0
+Path to R1 FASTQ file, bin B :
+ GSF3186-Schlebach-V276T_B_S6_R1_001.fastq
+Path to R2 FASTQ file, bin B :
+ GSF3186-Schlebach-V276T_B_S6_R2_001.fastq
+Mean fluoresence intensiy, bin B : 221.0
+Path to R1 FASTQ file, bin C :
+ GSF3186-Schlebach-V276T_C_S7_R1_001.fastq
+Path to R2 FASTQ file, bin C :
+ GSF3186-Schlebach-V276T_C_S7_R2_001.fastq
+Mean fluoresence intensiy, bin C : 721.0
+Path to R1 FASTQ file, bin D :
+ GSF3186-Schlebach-V276T_D_S8_R1_001.fastq
+Path to R2 FASTQ file, bin D :
+ GSF3186-Schlebach-V276T_D_S8_R2_001.fastq
+Mean fluoresence intensiy, bin D : 2652.0
+Mean fluorescence intensity, WT eGFP:  1518.0
+Path to dictionary:  V276Tlib_75Penetrance.tsv
+Barcode length:  [10]
+Flanking sequence upstream of barcode:  TAGGCG
+Flanking sequence downstream of barcode:  CTTCGC
+Using R1 and R2 reads from bin A
+R1 read lengths from bin A :
+ Counter({75: 6746816, 74: 6105, 73: 4639, 69: 48, 35: 42, 72: 32, 55: 29, 71: 28, 70: 26, 54: 25, 68: 21, 66: 19, 57: 17, 65: 12, 50: 12, 52: 8, 53: 6, 64: 4, 37: 4, 49: 3, 51: 3, 67: 3, 56: 2, 58: 2, 38: 2, 39: 2, 59: 2, 63: 2, 43: 1, 42: 1, 40: 1, 48: 1, 60: 1})
+R2 read lengths from bin A :
+ Counter({73: 6407129, 75: 284036, 74: 66192, 72: 228, 69: 48, 35: 38, 71: 38, 55: 29, 70: 28, 54: 25, 68: 22, 66: 19, 57: 17, 65: 12, 50: 11, 52: 8, 53: 6, 64: 4, 37: 4, 49: 3, 51: 3, 56: 2, 58: 2, 67: 2, 38: 2, 39: 2, 59: 2, 63: 2, 43: 1, 42: 1, 40: 1, 48: 1, 60: 1})
+Quality score threshold:  30.0
+Number of R1 reads before filtering, bin A :  6757919
+Number of R2 reads before filtering, bin A :  6757919
+Percent passing reads, R1 reads, bin A :  98.89273606268438
+Percent passing reads, R2 reads, bin A :  98.18987176377817
+Average quality score, passing R1 reads, bin A :  35.37381483083653
+Average quality score, passing R2 reads, bin A :  35.366163336291976
+Generating consensus sequences from R1 and R2 reads for bin A
+Number of reads passing either R1 or R2, bin A :  6723180
+Number of reads passing both R1 and R2, bin A :  6595503
+Number of consensus reads generated with bin A  R1-R2 overlap of 25 nucleotides:  6587961
+Percent of bin A  consensus sequences containing TAGGCG :  99.57291793318144
+Start positions in bin A  of  TAGGCG :
+  Counter({54: 6199622, 53: 306235, 55: 29637, 52: 19673, 51: 2334, 61: 1049, 50: 461, 49: 234, 48: 135, 56: 96, 47: 88, 60: 77, 46: 41, 45: 26, 44: 24, 43: 20, 9: 15, 59: 10, 42: 6, 57: 5, 62: 5, 41: 4, 40: 4, 66: 3, 63: 3, 38: 3, 0: 3, 37: 2, 71: 2, 39: 2, 74: 1, 72: 1, 69: 1, 68: 1, 93: 1, 65: 1})
+Percent of bin  A  consensus sequences containing CTTCGC :  99.64861662052947
+Start positions in bin A  of  CTTCGC :
+  Counter({70: 6135714, 69: 322692, 71: 60329, 68: 23501, 65: 2933, 67: 2718, 62: 2624, 64: 1752, 77: 1640, 63: 1270, 61: 1224, 66: 937, 86: 764, 76: 708, 91: 579, 60: 569, 79: 564, 82: 436, 78: 415, 80: 379, 72: 361, 83: 338, 90: 324, 59: 321, 81: 285, 89: 247, 84: 222, 73: 193, 85: 158, 88: 143, 15: 119, 75: 110, 74: 83, 92: 30, 58: 27, 87: 26, 25: 15, 93: 10, 94: 8, 14: 8, 39: 7, 57: 5, 56: 5, 53: 3, 54: 3, 27: 2, 55: 2, 6: 2, 11: 1, 10: 1, 8: 1, 34: 1, 96: 1, 37: 1, 31: 1})
+Number of barcode reads identified in bin A  consensus sequences using 5p  TAGGCG and 3p  CTTCGC :  6479222
+Number of unique barcodes identified in bin A  consensus sequences using 5p  TAGGCG and 3p  CTTCGC :  121031
+Using R1 and R2 reads from bin B
+R1 read lengths from bin B :
+ Counter({75: 6951091, 74: 6434, 73: 4863, 35: 66, 69: 60, 55: 35, 72: 30, 66: 28, 54: 19, 70: 17, 68: 16, 53: 13, 71: 12, 50: 10, 52: 10, 57: 9, 65: 6, 38: 6, 37: 4, 56: 4, 67: 4, 41: 4, 64: 3, 62: 2, 47: 2, 61: 1, 44: 1, 45: 1, 40: 1, 58: 1, 39: 1, 63: 1, 51: 1, 49: 1, 59: 1})
+R2 read lengths from bin B :
+ Counter({73: 6576321, 75: 311852, 74: 73906, 72: 318, 69: 63, 35: 56, 71: 41, 55: 34, 66: 30, 54: 19, 70: 18, 68: 15, 53: 13, 52: 10, 50: 9, 57: 9, 65: 6, 38: 6, 37: 4, 56: 4, 67: 4, 41: 4, 64: 3, 62: 2, 47: 2, 61: 1, 44: 1, 45: 1, 40: 1, 58: 1, 63: 1, 51: 1, 49: 1, 59: 1})
+Quality score threshold:  30.0
+Number of R1 reads before filtering, bin B :  6962758
+Number of R2 reads before filtering, bin B :  6962758
+Percent passing reads, R1 reads, bin B :  98.96286787505755
+Percent passing reads, R2 reads, bin B :  98.1321769333359
+Average quality score, passing R1 reads, bin B :  35.39273947808209
+Average quality score, passing R2 reads, bin B :  35.36607691808658
+Generating consensus sequences from R1 and R2 reads for bin B
+Number of reads passing either R1 or R2, bin B :  6927823
+Number of reads passing both R1 and R2, bin B :  6795428
+Number of consensus reads generated with bin B  R1-R2 overlap of 25 nucleotides:  6786860
+Percent of bin B  consensus sequences containing TAGGCG :  99.57697668730458
+Start positions in bin B  of  TAGGCG :
+  Counter({54: 6383258, 53: 319763, 55: 30378, 52: 20106, 51: 2280, 61: 954, 50: 534, 49: 265, 48: 154, 56: 107, 47: 99, 60: 77, 46: 45, 45: 31, 43: 21, 44: 15, 59: 9, 9: 8, 42: 7, 58: 6, 57: 4, 40: 4, 93: 4, 37: 3, 38: 3, 41: 3, 63: 2, 29: 1, 34: 1, 71: 1, 28: 1, 64: 1, 72: 1, 66: 1, 31: 1, 73: 1, 62: 1})
+Percent of bin  B  consensus sequences containing CTTCGC :  99.6167005065671
+Start positions in bin B  of  CTTCGC :
+  Counter({70: 6317744, 69: 334515, 71: 61318, 68: 23911, 65: 3612, 67: 2634, 62: 2138, 66: 1822, 61: 1672, 77: 1577, 64: 1197, 63: 1075, 86: 826, 76: 671, 60: 657, 91: 538, 79: 488, 72: 477, 82: 438, 80: 412, 78: 395, 83: 339, 59: 303, 90: 287, 89: 246, 73: 246, 81: 228, 75: 208, 84: 193, 85: 156, 88: 150, 15: 129, 74: 96, 92: 27, 87: 25, 58: 18, 25: 8, 93: 7, 39: 7, 14: 7, 94: 6, 96: 5, 56: 5, 57: 5, 6: 5, 9: 4, 53: 3, 45: 2, 13: 2, 50: 2, 43: 2, 44: 1, 104: 1, 51: 1, 46: 1, 54: 1, 47: 1, 95: 1, 16: 1})
+Number of barcode reads identified in bin B  consensus sequences using 5p  TAGGCG and 3p  CTTCGC :  6674967
+Number of unique barcodes identified in bin B  consensus sequences using 5p  TAGGCG and 3p  CTTCGC :  129678
+Using R1 and R2 reads from bin C
+R1 read lengths from bin C :
+ Counter({75: 6329304, 74: 7650, 73: 4321, 72: 31, 71: 29, 69: 21, 35: 20, 66: 18, 68: 10, 52: 8, 55: 8, 70: 6, 50: 6, 65: 6, 53: 5, 54: 5, 61: 2, 51: 2, 47: 1, 62: 1, 63: 1, 38: 1, 57: 1, 42: 1, 41: 1, 58: 1, 56: 1})
+R2 read lengths from bin C :
+ Counter({73: 6007640, 75: 271920, 74: 61509, 72: 259, 69: 21, 66: 18, 35: 16, 71: 15, 68: 9, 55: 8, 52: 7, 70: 6, 65: 6, 53: 5, 50: 5, 54: 5, 51: 2, 47: 1, 62: 1, 63: 1, 38: 1, 57: 1, 61: 1, 42: 1, 41: 1, 58: 1, 56: 1})
+Quality score threshold:  30.0
+Number of R1 reads before filtering, bin C :  6341461
+Number of R2 reads before filtering, bin C :  6341461
+Percent passing reads, R1 reads, bin C :  98.90466881370081
+Percent passing reads, R2 reads, bin C :  96.23690818251504
+Average quality score, passing R1 reads, bin C :  35.377653966840185
+Average quality score, passing R2 reads, bin C :  34.75829585173167
+Generating consensus sequences from R1 and R2 reads for bin C
+Number of reads passing either R1 or R2, bin C :  6300119
+Number of reads passing both R1 and R2, bin C :  6074708
+Number of consensus reads generated with bin C  R1-R2 overlap of 25 nucleotides:  6068206
+Percent of bin C  consensus sequences containing TAGGCG :  99.61052739475225
+Start positions in bin C  of  TAGGCG :
+  Counter({54: 5705085, 53: 287931, 55: 27595, 52: 18234, 51: 2075, 61: 1664, 60: 792, 50: 483, 49: 229, 48: 122, 56: 94, 47: 91, 46: 51, 59: 36, 43: 18, 45: 17, 62: 14, 44: 9, 58: 6, 38: 5, 42: 3, 37: 3, 39: 2, 57: 2, 70: 2, 93: 1, 40: 1, 9: 1, 92: 1, 74: 1, 64: 1, 41: 1, 34: 1, 67: 1})
+Percent of bin  C  consensus sequences containing CTTCGC :  99.60601205694071
+Start positions in bin C  of  CTTCGC :
+  Counter({70: 5647786, 69: 298986, 71: 55045, 68: 20534, 67: 2829, 65: 2472, 61: 2390, 77: 2221, 66: 2033, 76: 1406, 62: 1278, 60: 848, 86: 715, 63: 601, 72: 583, 64: 532, 75: 393, 79: 356, 80: 337, 90: 299, 73: 289, 83: 287, 78: 285, 89: 274, 91: 243, 82: 235, 84: 217, 88: 140, 85: 138, 81: 127, 15: 123, 59: 116, 74: 67, 92: 27, 87: 21, 93: 21, 58: 11, 39: 6, 14: 4, 53: 3, 55: 2, 50: 2, 54: 2, 57: 2, 31: 1, 3: 1, 46: 1, 56: 1, 6: 1, 25: 1, 47: 1, 20: 1, 94: 1, 10: 1, 9: 1, 48: 1})
+Number of barcode reads identified in bin C  consensus sequences using 5p  TAGGCG and 3p  CTTCGC :  5969783
+Number of unique barcodes identified in bin C  consensus sequences using 5p  TAGGCG and 3p  CTTCGC :  138968
+Using R1 and R2 reads from bin D
+R1 read lengths from bin D :
+ Counter({75: 5668237, 74: 7581, 73: 4087, 69: 51, 71: 31, 66: 27, 68: 25, 35: 25, 37: 20, 72: 19, 70: 19, 65: 15, 55: 13, 63: 10, 50: 8, 54: 6, 67: 5, 52: 5, 57: 5, 41: 4, 59: 4, 53: 4, 38: 3, 49: 2, 64: 2, 56: 2, 62: 1, 60: 1, 61: 1, 58: 1, 51: 1, 36: 1})
+R2 read lengths from bin D :
+ Counter({73: 5277375, 75: 335595, 74: 66740, 72: 212, 69: 54, 71: 37, 66: 27, 68: 25, 35: 21, 37: 20, 70: 19, 65: 15, 55: 13, 63: 10, 50: 7, 54: 6, 52: 5, 53: 5, 57: 5, 41: 4, 67: 4, 59: 4, 38: 3, 64: 2, 56: 2, 62: 1, 60: 1, 49: 1, 61: 1, 58: 1, 51: 1})
+Quality score threshold:  30.0
+Number of R1 reads before filtering, bin D :  5680216
+Number of R2 reads before filtering, bin D :  5680216
+Percent passing reads, R1 reads, bin D :  98.94838506141316
+Percent passing reads, R2 reads, bin D :  98.0959526891231
+Average quality score, passing R1 reads, bin D :  35.38470464129096
+Average quality score, passing R2 reads, bin D :  35.36493950220906
+Generating consensus sequences from R1 and R2 reads for bin D
+Number of reads passing either R1 or R2, bin D :  5652485
+Number of reads passing both R1 and R2, bin D :  5540059
+Number of consensus reads generated with bin D  R1-R2 overlap of 25 nucleotides:  5532423
+Percent of bin D  consensus sequences containing TAGGCG :  99.56675402441209
+Start positions in bin D  of  TAGGCG :
+  Counter({54: 5205125, 53: 258875, 55: 23824, 52: 16316, 51: 1904, 61: 1183, 50: 462, 49: 234, 60: 125, 48: 122, 47: 81, 56: 62, 46: 33, 45: 20, 43: 19, 44: 11, 57: 10, 59: 9, 58: 8, 62: 8, 42: 5, 40: 4, 41: 3, 9: 3, 75: 1, 91: 1, 37: 1, 71: 1, 67: 1, 27: 1, 0: 1, 93: 1})
+Percent of bin  D  consensus sequences containing CTTCGC :  99.5844316314931
+Start positions in bin D  of  CTTCGC :
+  Counter({70: 5147261, 69: 269702, 71: 53407, 68: 20116, 67: 2970, 65: 2445, 77: 1704, 61: 1618, 66: 1594, 62: 1146, 63: 748, 72: 689, 76: 607, 86: 569, 79: 440, 60: 423, 75: 396, 91: 390, 78: 327, 64: 310, 82: 304, 80: 297, 83: 290, 90: 230, 89: 201, 73: 198, 81: 174, 84: 156, 85: 142, 88: 127, 59: 115, 74: 100, 15: 99, 92: 27, 87: 19, 93: 15, 94: 11, 39: 10, 58: 9, 31: 7, 56: 6, 14: 6, 57: 5, 9: 4, 25: 3, 43: 2, 3: 2, 46: 1, 27: 1, 53: 1, 33: 1, 34: 1, 6: 1, 32: 1, 50: 1, 96: 1, 95: 1, 47: 1})
+Number of barcode reads identified in bin D  consensus sequences using 5p  TAGGCG and 3p  CTTCGC :  5432916
+Number of unique barcodes identified in bin D  consensus sequences using 5p  TAGGCG and 3p  CTTCGC :  116710
+Number of unique barcodes in all bins:  298799
+Number of barcodes in bin A after filtering with barcodes in dictionary:  473654
+Number of barcodes in bin B after filtering with barcodes in dictionary:  550511
+Number of barcodes in bin C after filtering with barcodes in dictionary:  674395
+Number of barcodes in bin D after filtering with barcodes in dictionary:  679980
+Number of barcodes in master pool in bin A : 473654
+Number of wt barcodes in master pool in bin A : 0
+Number of variant barcodes in master pool in bin A : 473654
+Number of unassigned barcodes in master pool in bin A : 0
+Number of reads in master label pool in bin A : 473654
+Number of barcodes in master pool in bin B : 550511
+Number of wt barcodes in master pool in bin B : 0
+Number of variant barcodes in master pool in bin B : 550511
+Number of unassigned barcodes in master pool in bin B : 0
+Number of reads in master label pool in bin B : 550511
+Number of barcodes in master pool in bin C : 674395
+Number of wt barcodes in master pool in bin C : 0
+Number of variant barcodes in master pool in bin C : 674395
+Number of unassigned barcodes in master pool in bin C : 0
+Number of reads in master label pool in bin C : 674395
+Number of barcodes in master pool in bin D : 679980
+Number of wt barcodes in master pool in bin D : 0
+Number of variant barcodes in master pool in bin D : 679980
+Number of unassigned barcodes in master pool in bin D : 0
+Number of reads in master label pool in bin D : 679980
+Bin with the smallest number of reads:  A
+Number of reads in bin A : 473654
+Rarefaction sampling...
+Seed for rarefaction sampling:  22
+Calculating surface trafficking score
+Saving Excel workbooks...

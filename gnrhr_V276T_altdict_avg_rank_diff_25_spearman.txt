@@ -1,0 +1,6 @@
+Spearman's r before data filtering:  0.8207152029171607
+Spearman's p-value before data filtering:  8.034041951547246e-98
+Number of variants before data filtering:  396
+Spearman's r after data filtering:  0.929720034638094
+Spearman's p-value after data filtering:  7.954916323487734e-148
+Number of variants after data filtering:  338
